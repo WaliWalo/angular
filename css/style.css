@@ -1,0 +1,179 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 33.3%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+content {
+    margin-left: 170px;   
+    overflow: hidden;
+}
+
+/*image style*/
+div.img {
+    margin: 9px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+    height: 400px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*steps style*/
+.ui-steps .ui-steps-item {
+            width: 25%;
+}
+
+.ui-steps.steps-custom {
+    margin-bottom: 30px;
+}
+    
+.ui-steps.steps-custom .ui-steps-item .ui-menuitem-link {
+    height: 10px;
+    padding: 0 1em;
+}
+    
+.ui-steps.steps-custom .ui-steps-item .ui-steps-number {
+    background-color: #0081c2;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.ui-steps.steps-custom .ui-steps-item .ui-steps-title {
+    color: #555555;
+}
+
+/*movie details*/
+.clearfix {
+    overflow: auto;
+}
+
+nav{
+    float: left;    
+}
+
+section{
+    margin-left:206px;
+}
+
+/*drop down styles*/
+.ui-dropdown-item{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    zoom: 1;
+    cursor: pointer;
+    padding-right: 2em;
+}
+
+.ui-dropdown{
+    float:left;
+}
+
+/*button style*/
+button{
+    background-color: #e7e7e7; color: black;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -50px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span {
+  padding-left: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*progress bar*/
+ui-progressbar{
+    visibility: false;
+    opacity: 0;
+}
+ui-progressbar-value{
+    width: 50%;
+}
